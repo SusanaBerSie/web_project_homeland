@@ -1,0 +1,8 @@
+.page {
+  font-family: ; /*descargar fuenets y vincularlas*/
+  background-color: #2a2c2f;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
