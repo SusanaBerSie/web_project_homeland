@@ -1,3 +1,5 @@
-.footer {
-  width: 194px;
+.footer__copyright {
+  width: 230px;
+  height: 16px;
+  margin: 98px auto 24px;
 }

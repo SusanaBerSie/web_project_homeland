@@ -2,10 +2,31 @@
   width: 984px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
 .header__logo {
   width: 255px;
   height: 69px;
+  margin: 34px auto 101px;
+}
+
+@media screen and (max-width: 1278px) and (min-width: 768px) {
+  .header {
+    width: 768px;
+  }
+
+  .header__logo {
+    margin: 30px auto 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    width: 320px;
+  }
+
+  .header__logo {
+    margin: 20px auto 50px;
+  }
 }
