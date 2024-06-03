@@ -1,0 +1,10 @@
+.grid {
+  width: 1184px;
+  height: 442px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 16px;
+  color: #fff;
+  margin: 118px auto 92px;
+}
