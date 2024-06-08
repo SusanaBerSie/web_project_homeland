@@ -1,5 +1,17 @@
 .footer__copyright {
   width: 230px;
   height: 16px;
-  margin: 98px auto 24px;
+  margin: 10px auto 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    margin: 18px auto 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    margin: 15px auto 25px;
+  }
 }
