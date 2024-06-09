@@ -2,15 +2,3 @@
   width: 987px;
   margin: auto;
 }
-
-@media screen and (max-width: 1278px) and (min-width: 768px) {
-  .places {
-    width: 720px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .places {
-    width: 100%;
-  }
-}

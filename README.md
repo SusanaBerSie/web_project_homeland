@@ -1,6 +1,6 @@
 # web_project_homeland
 
-Este es el resultado de mi proyecto del sprint 5 de desarrollo web en TRIPLETEN. La finalidad de este, es la creación de una galería de arte en donde se encuentran las fotografías de las ciudades natales de algunos miembros del equipo de Tripleten.
+En este proyecto se creó una galería de arte en donde se encuentran los lugares natales de algunos miembros del equipo del bootcamp de Tripleten, para cada una de estas se encuentra la descripción del lugar junto con una foto representativa del mismo. Cada una de estas se puede descargar en el boton adjunto.
 
 Aquí el link de acceso:
 https://susanabersie.github.io/web_project_homeland/
