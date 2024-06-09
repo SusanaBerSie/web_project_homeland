@@ -98,10 +98,6 @@
 }
 
 @media screen and (max-width: 1278px) and (min-width: 768px) {
-  .places {
-    width: 720px;
-  }
-
   .place {
     grid-column-gap: 28px;
     margin-bottom: 72px;
@@ -119,10 +115,6 @@
 }
 
 @media screen and (max-width: 767px) {
-  .places {
-    width: 100%;
-  }
-
   .place {
     width: 320px;
     display: flex;
