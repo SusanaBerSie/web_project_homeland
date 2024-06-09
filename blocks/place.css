@@ -50,7 +50,7 @@
   grid-area: buttom;
   width: 289px;
   height: 48px;
-  background-image: linear-gradient(90deg, #0278fe 0, 56%, #003a7b 100%);
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99, 98%);
   box-sizing: border-box;
   box-shadow: 5px 5px 10px #000000;
   border-radius: 5px;
@@ -65,11 +65,7 @@
 }
 
 .place__buttom:hover {
-  background-image: linear-gradient(
-    90deg,
-    rgba(2, 120, 254, 0.25) 25%,
-    rgba(0, 58, 123, 0.25) 25%
-  );
+  background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
 
 .place__webside {
