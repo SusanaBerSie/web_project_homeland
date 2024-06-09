@@ -3,146 +3,14 @@
   margin: auto;
 }
 
-.place {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 48px 40px;
-  margin-bottom: 80px;
-  grid-template-areas:
-    "title webside"
-    "image paragraph"
-    "buttom paragraph";
-}
-
-.place__title {
-  height: 100%;
-  font-size: 72px;
-  font-weight: 900;
-  line-height: 76px;
-  text-align: left;
-  margin: 0;
-  grid-area: title;
-}
-
-.place__paragraph {
-  display: flex;
-  flex-direction: column;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  text-align: left;
-  grid-area: paragraph;
-  margin: 0;
-}
-
-.place__paragraph p {
-  margin: 0;
-}
-
-.place__image {
-  width: 100%;
-  height: 100%;
-  box-shadow: 10px 10px 25px 0px #00000080;
-  grid-area: image;
-}
-
-.place__image:hover {
-  opacity: 0.5;
-}
-
-.place__buttom {
-  grid-area: buttom;
-  width: 289px;
-  height: 48px;
-  background-image: linear-gradient(90deg, #0278fe 0, 56%, #003a7b 100%);
-  box-sizing: border-box;
-  box-shadow: 5px 5px 10px #000000;
-  border-radius: 5px;
-  padding: 13px 20px;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.15;
-  text-align: center;
-  color: #fff;
-  align-self: baseline;
-  text-decoration: none;
-}
-
-.place__buttom:hover {
-  background-image: linear-gradient(
-    90deg,
-    rgba(2, 120, 254, 0.25) 25%,
-    rgba(0, 58, 123, 0.25) 25%
-  );
-}
-
-.webside {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  grid-area: webside;
-}
-
-.webside__url-heading {
-  width: 58px;
-  height: 15px;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 14.52px;
-  letter-spacing: 0.12em;
-  text-align: left;
-  margin-bottom: 8px;
-}
-
-.webside__artist {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
-  text-align: left;
-}
-
 @media screen and (max-width: 1278px) and (min-width: 768px) {
   .places {
     width: 720px;
-  }
-
-  .place {
-    grid-column-gap: 28px;
-    margin-bottom: 72px;
-  }
-
-  .place__title {
-    font-size: 42px;
-    line-height: 46px;
-  }
-
-  .place__paragraph {
-    font-size: 16px;
-    line-height: 26px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .places {
     width: 100%;
-  }
-
-  .place {
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    column-gap: 30px;
-    margin-bottom: 50px;
-  }
-
-  .place__title {
-    font-size: 32px;
-    line-height: 35px;
-  }
-
-  .place__paragraph {
-    font-size: 16px;
-    line-height: 26px;
   }
 }
